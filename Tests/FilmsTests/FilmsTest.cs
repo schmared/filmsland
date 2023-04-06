@@ -32,7 +32,7 @@ namespace Tests
             var origReduced = query.Expression.Reduce();
 
             var newQuery =_actorService?.QueryConditionalSearchParameters(query, new ActorSearchParameters { 
-                NamePart = "Rob", DateOfBirth = new DateOnly(1956, 12, 1), Page=1, PageSize = 2
+                NamePart = "Rob", YearOfBirth = 1956, Page = 1, PageSize = 2
             });
 
             if (newQuery == null)

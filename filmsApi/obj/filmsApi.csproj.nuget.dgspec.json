@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\filmsApi.csproj": {}
+    "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\filmsApi.csproj": {
+    "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\filmsApi.csproj",
-        "projectName": "filmsApi",
-        "projectPath": "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\filmsApi.csproj",
+        "projectUniqueName": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj",
+        "projectName": "FilmsApi",
+        "projectPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj",
         "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\obj\\",
+        "outputPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config"

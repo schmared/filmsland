@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eOkCz2e5bzmk3/Tfumhu7SxJ/5ryNOuROhcQyglaaCGsSys2yoZc/nLqsB49x902YwsCcVSWHoA5jrW/3JMLAw==",
+  "dgSpecHash": "ujyQLhojI67gDXBr8IyxcFnMWNfLRMw9KdRkeVQmWdPcnobVecRHYiZ/NOMHU4SqorgHYuFeZqz7EWfulpuoXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jared\\projects\\destify\\filmsland\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jared\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.15\\microsoft.aspnetcore.authentication.jwtbearer.6.0.15.nupkg.sha512",
     "C:\\Users\\jared\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

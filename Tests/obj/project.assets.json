@@ -1182,7 +1182,7 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "filmsApi/1.0.0": {
+      "FilmsApi/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1191,10 +1191,10 @@
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/filmsApi.dll": {}
+          "bin/placeholder/FilmsApi.dll": {}
         },
         "runtime": {
-          "bin/placeholder/filmsApi.dll": {}
+          "bin/placeholder/FilmsApi.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -2972,20 +2972,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "filmsApi/1.0.0": {
+    "FilmsApi/1.0.0": {
       "type": "project",
-      "path": "../filmsapi/filmsApi.csproj",
-      "msbuildProject": "../filmsapi/filmsApi.csproj"
+      "path": "../FilmsApi/FilmsApi.csproj",
+      "msbuildProject": "../FilmsApi/FilmsApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FilmsApi >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
       "NUnit.Console >= 3.16.3",
       "NUnit3TestAdapter >= 4.4.2",
-      "System.Data.SQLite.Core >= 1.0.117",
-      "filmsApi >= 1.0.0"
+      "System.Data.SQLite.Core >= 1.0.117"
     ]
   },
   "packageFolders": {
@@ -2994,11 +2994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jared\\projects\\destify\\filmsland\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\jared\\projects\\destify\\filmsland\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jared\\projects\\destify\\filmsland\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3013,8 +3013,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jared\\projects\\destify\\filmsland\\filmsapi\\filmsApi.csproj": {
-              "projectPath": "C:\\Users\\jared\\projects\\destify\\filmsland\\filmsapi\\filmsApi.csproj"
+            "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj": {
+              "projectPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj"
             }
           }
         }

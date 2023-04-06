@@ -146,6 +146,66 @@
         <member name="M:filmsApi.Migrations.Films.InitialData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:filmsApi.Migrations.Films.ActorColumnChange">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.ActorColumnChange.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.ActorColumnChange.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.ActorColumnChange.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Migrations.Films.MovieRatingsKeyChange">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsKeyChange.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsKeyChange.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsKeyChange.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Migrations.Films.MovieRatingsRelationship">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Migrations.Films.MovieRatingsRelationship3">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieRatingsRelationship3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Migrations.Films.MovieActorRelationship">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieActorRelationship.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieActorRelationship.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.MovieActorRelationship.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:filmsApi.Models.ParentalGuide">
             <summary>
             Parental Guide enumeration for Movies

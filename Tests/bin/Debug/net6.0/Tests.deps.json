@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "Tests/1.0.0": {
         "dependencies": {
+          "FilmsApi": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "NUnit": "3.13.3",
           "NUnit.Console": "3.16.3",
           "NUnit3TestAdapter": "4.4.2",
-          "System.Data.SQLite.Core": "1.0.117",
-          "filmsApi": "1.0.0"
+          "System.Data.SQLite.Core": "1.0.117"
         },
         "runtime": {
           "Tests.dll": {}
@@ -859,7 +859,7 @@
           }
         }
       },
-      "filmsApi/1.0.0": {
+      "FilmsApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.15",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.4",
@@ -1297,7 +1297,7 @@
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
-    "filmsApi/1.0.0": {
+    "FilmsApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>filmsApi</name>
+        <name>FilmsApi</name>
     </assembly>
     <members>
         <member name="M:filmsApi.Controllers.ActorCreateUpdateDeleteController.Create(filmsApi.Models.Actor)">

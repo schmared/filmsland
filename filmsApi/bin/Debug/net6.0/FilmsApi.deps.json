@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "filmsApi/1.0.0": {
+      "FilmsApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.15",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
@@ -14,7 +14,7 @@
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "filmsApi.dll": {}
+          "FilmsApi.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -554,7 +554,7 @@
     }
   },
   "libraries": {
-    "filmsApi/1.0.0": {
+    "FilmsApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

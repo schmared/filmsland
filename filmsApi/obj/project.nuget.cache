@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+JRVS+LNXicvokFfxr/TK2gylw+Z0t7G6bYr9nk9PM8pewLP152WFuWmZkZldNKw4LadX7asVVXK9ylbzW/fQ==",
+  "dgSpecHash": "Lp5XZ8NujshRwqUBX7nTy4xbq9BK3ffAJ6npSKm8JeOP/iPKXmoSFoE6gn34sCYxYbLFgi/yF5NEfo57DLPUug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jared\\projects\\destify\\filmsland\\FilmsApi\\filmsApi.csproj",
+  "projectFilePath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jared\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jared\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.15\\microsoft.aspnetcore.authentication.jwtbearer.6.0.15.nupkg.sha512",

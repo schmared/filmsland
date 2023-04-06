@@ -1935,11 +1935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jared\\projects\\destify\\filmsland\\filmsApi\\filmsApi.csproj",
-      "projectName": "filmsApi",
-      "projectPath": "c:\\Users\\jared\\projects\\destify\\filmsland\\filmsApi\\filmsApi.csproj",
+      "projectUniqueName": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj",
+      "projectName": "FilmsApi",
+      "projectPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\FilmsApi.csproj",
       "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jared\\projects\\destify\\filmsland\\filmsApi\\obj\\",
+      "outputPath": "C:\\Users\\jared\\projects\\destify\\projects\\filmsland\\FilmsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config"
