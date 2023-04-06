@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmsApi</name>
+    </assembly>
+    <members>
+        <member name="M:filmsApi.Controllers.ActorCreateUpdateDeleteController.Create(filmsApi.Models.Actor)">
+            <summary>
+            Creates a new actor entity by the actor service using the actor object provided
+            </summary>
+            <param name="actor"></param>
+            <returns>The actor object successfully added by the actor service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.ActorCreateUpdateDeleteController.Update(filmsApi.Models.Actor)">
+            <summary>
+            Updates an existing entity by the actor service using the actor object provided
+            </summary>
+            <param name="actor"></param>
+            <returns>The actor object successfully updated by the actor service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.ActorCreateUpdateDeleteController.Delete(System.Int32)">
+            <summary>
+            Attempts to delete actor entity by the actor service and the Id provided
+            </summary>
+            <param name="id">Id of the actor database entity to be deleted</param>
+            <returns>Ok result if entity found and deleted or NotFound result if no entity was found or deleted</returns>
+        </member>
+        <member name="T:filmsApi.Controllers.CreateUpdateDeleteController`1">
+            <summary>
+            CreateUpdateDeleteController allows other controllers to inherit from it requiring Authorization to access endpoint actions
+            </summary>
+            <typeparam name="TEntity">Entity type required by the child controller classes to override the endpoint actions</typeparam>
+        </member>
+        <member name="M:filmsApi.Controllers.CreateUpdateDelete.MovieCreateUpdateDeleteController.Create(filmsApi.Models.Movie)">
+            <summary>
+            Creates a new movie entity by the movie service using the movie object provided
+            </summary>
+            <param name="movie"></param>
+            <returns>The movie object successfully added by the movie service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.CreateUpdateDelete.MovieCreateUpdateDeleteController.Update(filmsApi.Models.Movie)">
+            <summary>
+            Updates an existing entity by the movie service using the movie object provided
+            </summary>
+            <param name="movie"></param>
+            <returns>The movie object successfully updated by the movie service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.CreateUpdateDelete.MovieCreateUpdateDeleteController.Delete(System.Int32)">
+            <summary>
+            Attempts to delete movie entity by the movie service and the Id provided
+            </summary>
+            <param name="id">Id of the movie database entity to be deleted</param>
+            <returns>Ok result if entity found and deleted or NotFound result if no entity was found or deleted</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieRatingCreateUpdateDeleteController.Create(filmsApi.Models.MovieRating)">
+            <summary>
+            Creates a new movie rating entity by the movie rating service using the movie rating object provided
+            </summary>
+            <param name="movieRating" ></param>
+            <returns>The movie rating object successfully added by the movie rating service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieRatingCreateUpdateDeleteController.Update(filmsApi.Models.MovieRating)">
+            <summary>
+            Updates an existing entity by the movie rating service using the movie rating object provided
+            </summary>
+            <param name="movieRating" ></param>
+            <returns>The movie rating object successfully updated by the movie rating service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieRatingCreateUpdateDeleteController.Delete(System.Int32)">
+            <summary>
+            Attempts to delete movie rating entity by the movie rating service and the Id provided
+            </summary>
+            <param name="id">Id of the movie rating database entity to be deleted</param>
+            <returns>Ok result if entity found and deleted or NotFound result if no entity was found or deleted</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.ActorGetController.Get(System.Int32)">
+            <summary>
+            Retrieves the actor entity from the actor service by the specified Id
+            </summary>
+            <param name="id"></param>
+            <returns>The actor entity from the actor service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.ActorGetController.List(filmsApi.Models.Parameters.ActorSearchParameters)">
+            <summary>
+            Retrieves the actor entities from the actor service by the specified search parameters
+            </summary>
+            <param name="searchParameters"></param>
+            <returns>The actor entities found by the actor service</returns>
+        </member>
+        <member name="T:filmsApi.Controllers.GetController`1">
+            <summary>
+            GetController allows other controllers to inherit from it not requiring Authorization to access endpoint actions
+            </summary>
+            <typeparam name="TParams">Entity type required by the child controller classes to override
+            the endpoint action for searching list results</typeparam>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieGetController.Get(System.Int32)">
+            <summary>
+            Retrieves the movie entity from the movie service by the specified Id
+            </summary>
+            <param name="id"></param>
+            <returns>The movie entity from the movie service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieGetController.List(filmsApi.Models.Parameters.MovieSearchParameters)">
+            <summary>
+            Retrieves the movie entities from the movie service by the specified search parameters
+            </summary>
+            <param name="searchParameters"></param>
+            <returns>The movie entities found by the movie service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieRatingGetController.Get(System.Int32)">
+            <summary>
+            Retrieves the movie rating entity from the movie rating service by the specified Id
+            </summary>
+            <param name="id"></param>
+            <returns>The movie rating entity from the movie rating service</returns>
+        </member>
+        <member name="M:filmsApi.Controllers.MovieRatingGetController.List(filmsApi.Models.Parameters.MovieRatingSearchParameters)">
+            <summary>
+            Retrieves the movie rating entities from the movie rating service by the specified search parameters
+            </summary>
+            <param name="searchParameters"></param>
+            <returns>The movie rating entities found by the movie rating service</returns>
+        </member>
+        <member name="T:filmsApi.Migrations.InitialData">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.InitialData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.InitialData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.InitialData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Migrations.Films.InitialData">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.InitialData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.InitialData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:filmsApi.Migrations.Films.InitialData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:filmsApi.Models.ParentalGuide">
+            <summary>
+            Parental Guide enumeration for Movies
+            </summary>
+        </member>
+        <member name="T:filmsApi.Models.Enums.Reviewers">
+            <summary>
+            Reviewers enumeration for Movies
+            </summary>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.Read(System.Int32)">
+            <summary>
+            Retrieve record with exact matching identitifier field
+            </summary>
+            <param name="id"></param>
+            <returns>Record if found with the matching identifier</returns>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.ReadList(filmsApi.Models.Parameters.ActorSearchParameters)">
+            <summary>
+            Retrieve records matching provided search criteria
+            </summary>
+            <param name="actorSearchParameters"></param>
+            <returns>List of records matching the provided search criteria</returns>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.Create(filmsApi.Models.Actor)">
+            <summary>
+            Creates a new record in the database
+            </summary>
+            <param name="actor"></param>
+            <returns>The newly created record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.Update(filmsApi.Models.Actor)">
+            <summary>
+            Modifies an existing record in the database
+            </summary>
+            <param name="actor"></param>
+            <returns>The modified record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.Delete(System.Int32)">
+            <summary>
+            Deletes a specified record in the database that matches the provided identifier
+            </summary>
+            <param name="id"></param>
+            <returns>True if record is deleted, false if unsuccessful or record does not exist</returns>
+        </member>
+        <member name="M:filmsApi.Services.ActorService.QueryConditionalSearchParameters(System.Linq.IQueryable{filmsApi.Models.Actor},filmsApi.Models.Parameters.ActorSearchParameters)">
+            <summary>
+            Bulids a list of conditional 'where clause' conditions into an IQueryable
+            </summary>
+            <param name="query"></param>
+            <param name="actorSearchParameters"></param>
+            <returns>The modified IQueryable object</returns>
+        </member>
+        <member name="T:filmsApi.Services.LINQExtensions">
+            <summary>
+            Extention method to IQueriable that attempts to make easier boolean logic for Where clauses in-line
+            </summary>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.Read(System.Int32)">
+            <summary>
+            Retrieve record with exact matching identitifier field
+            </summary>
+            <param name="id"></param>
+            <returns>Record if found with the matching identifier</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.ReadList(filmsApi.Models.Parameters.MovieRatingSearchParameters)">
+            <summary>
+            Retrieve records matching provided search criteria
+            </summary>
+            <param name="movieRatingSearchParameters"></param>
+            <returns>List of records matching the provided search criteria</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.Create(filmsApi.Models.MovieRating)">
+            <summary>
+            Creates a new record in the database
+            </summary>
+            <param name="movieRating"></param>
+            <returns>The newly created record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.Update(filmsApi.Models.MovieRating)">
+            <summary>
+            Modifies an existing record in the database
+            </summary>
+            <param name="movieRating"></param>
+            <returns>The modified record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.Delete(System.Int32)">
+            <summary>
+            Deletes a specified record in the database that matches the provided identifier
+            </summary>
+            <param name="id"></param>
+            <returns>True if record is deleted, false if unsuccessful or record does not exist</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieRatingService.QueryConditionalSearchParameters(System.Linq.IQueryable{filmsApi.Models.MovieRating},filmsApi.Models.Parameters.MovieRatingSearchParameters)">
+            <summary>
+            Bulids a list of conditional 'where clause' conditions into an IQueryable
+            </summary>
+            <param name="query"></param>
+            <param name="movieRatingSearchParameters"></param>
+            <returns>The modified IQueryable object</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.Read(System.Int32)">
+            <summary>
+            Retrieve record with exact matching identitifier field
+            </summary>
+            <param name="id"></param>
+            <returns>Record if found with the matching identifier</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.ReadList(filmsApi.Models.Parameters.MovieSearchParameters)">
+            <summary>
+            Retrieve records matching provided search criteria
+            </summary>
+            <param name="movieSearchParameters"></param>
+            <returns>List of records matching the provided search criteria</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.Create(filmsApi.Models.Movie)">
+            <summary>
+            Creates a new record in the database
+            </summary>
+            <param name="movie"></param>
+            <returns>The newly created record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.Update(filmsApi.Models.Movie)">
+            <summary>
+            Modifies an existing record in the database
+            </summary>
+            <param name="movie"></param>
+            <returns>The modified record if successful</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.Delete(System.Int32)">
+            <summary>
+            Deletes a specified record in the database that matches the provided identifier
+            </summary>
+            <param name="id"></param>
+            <returns>True if record is deleted, false if unsuccessful or record does not exist</returns>
+        </member>
+        <member name="M:filmsApi.Services.MovieService.QueryConditionalSearchParameters(System.Linq.IQueryable{filmsApi.Models.Movie},filmsApi.Models.Parameters.MovieSearchParameters)">
+            <summary>
+            Bulids a list of conditional 'where clause' conditions into an IQueryable
+            </summary>
+            <param name="query"></param>
+            <param name="movieSearchParameters"></param>
+            <returns>The modified IQueryable object</returns>
+        </member>
+    </members>
+</doc>
